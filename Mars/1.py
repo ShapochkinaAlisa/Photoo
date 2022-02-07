@@ -15,6 +15,7 @@ def image():
     return f'''<img src="{url_for('static', filename='img/marss.png')}" 
            alt="здесь должна была быть картинка, но не нашлась">'''
 
+
 @app.route('/promotion_image')
 def bootstrap():
     return f'''<!doctype html>
