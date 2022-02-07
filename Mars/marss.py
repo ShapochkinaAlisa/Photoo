@@ -28,7 +28,6 @@ def carol():
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Пейзажи Марса</title>
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha512-Dop/vW3iOtayerlYAqCgkVr2aTr2ErwwTYOvRFUpzl2VhCMJyjQF0Q9TjUXIo6JhuM/3i0vVEt2e/7QQmnHQqw==" crossorigin="anonymous">
   <!-- Дополнительные стили Bootstrap (не обязательно) -->
@@ -41,7 +40,6 @@ def carol():
 <body>
   <div class="container text-center">
     <h1 class="h3" style="margin-top: 20px; margin-bottom: 5px;">Пейзажи Марса</h1>
-   
 
     <div id="carousel" class="carousel slide" data-ride="carousel" style="display: inline-block;">
         <div class="carousel-inner">
@@ -65,12 +63,10 @@ def carol():
             <span class="sr-only">Следующий</span>
         </a>
     </div>
-
 </div>
-
 </body>
 </html>'''
 
 
 if __name__ == '__main__':
-    app.run(port=8001, host='127.0.0.1')
+    app.run(port=8000, host='127.0.0.1')
