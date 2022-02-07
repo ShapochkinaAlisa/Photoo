@@ -27,7 +27,7 @@ def carol():
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>...</title>
+  <title>Пейзажи Марса</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha512-Dop/vW3iOtayerlYAqCgkVr2aTr2ErwwTYOvRFUpzl2VhCMJyjQF0Q9TjUXIo6JhuM/3i0vVEt2e/7QQmnHQqw==" crossorigin="anonymous">
@@ -40,19 +40,19 @@ def carol():
 </head>
 <body>
   <div class="container text-center">
-    <h1 class="h3" style="margin-top: 20px; margin-bottom: 5px;">Bootstrap 3 - Carousel (карусель)</h1>
-    <h2 class="h4" style="margin-top: 0px; margin-bottom: 20px;">без элементов управления</h2>
+    <h1 class="h3" style="margin-top: 20px; margin-bottom: 5px;">Пейзажи Марса</h1>
+   
 
     <div id="carousel" class="carousel slide" data-ride="carousel" style="display: inline-block;">
         <div class="carousel-inner">
             <div class="item active">
-                <img src="static/img/1.png" alt="...">
+                <img src="static/img/1.png" alt="здесь должна была быть картинка, но не нашлась">
             </div>
             <div class="item">
-                <img src="static/img/2.png" alt="...">
+                <img src="static/img/2.png" alt="здесь должна была быть картинка, но не нашлась">
             </div>
             <div class="item">
-                <img src="static/img/3.png" alt="...">
+                <img src="static/img/3.png" alt="здесь должна была быть картинка, но не нашлась">
             </div>
         </div>
         <!-- Элементы управления -->
